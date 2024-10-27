@@ -3,9 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+
+    <link href="https://api.fontshare.com/v2/css?f[]=satoshi@500,700,900&display=swap" rel="stylesheet">
+    <link href="https://api.fontshare.com/v2/css?f[]=jet-brains-mono@500,700,800&display=swap" rel="stylesheet"> 
+
+    <link rel="stylesheet" href="/styles/output.css">
+    <link rel="stylesheet" href="/styles/style.css">
+
+    <title>Carlos Pinheiro</title>
 </head>
-<body>
-    <h1 class="font-xl">Hello</h1>
+<body class="">
+    <header class="w-full h-128">
+        <div class="w-full h-16 flex justify-center">
+            <div class="w-11/12 h-full flex flex-row items-center gap-10">
+                <div class="w-10 h-10 border-2 rounded-lg flex justify-center items-center">
+                    <h1 class="text-3xl font-bold text-white">C</h1>
+                </div>
+                <ul class="flex flex-row gap-8">
+                    <li>Geral</li>
+                    <li>Sobre</li>
+                    <li>Projetos</li>
+                </ul>
+            </div>
+        </div>
+        <div class="relative w-full h-[30rem] bg-[url('/assets/train.gif')] bg-no-repeat bg-cover bg-bottom">
+            <div class="sob_bg"></div>
+            <div class="content absolute inset-0 flex flex-col justify-center items-center pb-10">
+                <h1 class="text-6xl text-white">Carlos Pinheiro</h1>
+                <p class="">Back-end developer</p>
+            </div>
+        </div>          
+    </header>
 </body>
 </html>
