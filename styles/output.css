@@ -574,16 +574,20 @@ video {
   height: 2.5rem;
 }
 
-.h-128 {
-  height: 28rem;
+.h-20 {
+  height: 5rem;
 }
 
-.h-16 {
-  height: 4rem;
+.h-\[100vh\] {
+  height: 100vh;
 }
 
-.h-\[30rem\] {
-  height: 30rem;
+.h-\[60vh\] {
+  height: 60vh;
+}
+
+.h-auto {
+  height: auto;
 }
 
 .h-full {
@@ -598,8 +602,28 @@ video {
   width: 91.666667%;
 }
 
+.w-\[30\%\] {
+  width: 30%;
+}
+
+.w-\[70\%\] {
+  width: 70%;
+}
+
 .w-full {
   width: 100%;
+}
+
+.w-\[\] {
+  width: ;
+}
+
+.w-\[0\.5rem\] {
+  width: 0.5rem;
+}
+
+.w-\[2rem\] {
+  width: 2rem;
 }
 
 .flex-row {
@@ -626,17 +650,16 @@ video {
   gap: 2rem;
 }
 
+.rounded-full {
+  border-radius: 9999px;
+}
+
 .rounded-lg {
   border-radius: 0.5rem;
 }
 
 .border-2 {
   border-width: 2px;
-}
-
-.bg-primary {
-  --tw-bg-opacity: 1;
-  background-color: rgb(3 0 28 / var(--tw-bg-opacity));
 }
 
 .bg-\[url\(\'\/assets\/train\.gif\'\)\] {
@@ -655,31 +678,13 @@ video {
   background-repeat: no-repeat;
 }
 
-.pb-2 {
-  padding-bottom: 0.5rem;
-}
-
 .pb-10 {
   padding-bottom: 2.5rem;
-}
-
-.pb-8 {
-  padding-bottom: 2rem;
 }
 
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
-}
-
-.text-5xl {
-  font-size: 3rem;
-  line-height: 1;
-}
-
-.text-8xl {
-  font-size: 6rem;
-  line-height: 1;
 }
 
 .text-6xl {

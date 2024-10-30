@@ -4,12 +4,13 @@ module.exports = {
   theme: {
     extend: {
       height:{
-        '128':'28rem',
+        '128':'52rem',
       }
     },
     colors:{
       'primary': '#0a0916',
-    }
+    },
+    
   },
   plugins: [],
 }

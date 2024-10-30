@@ -4,7 +4,11 @@ body{
 }
 
 header{
-    color: #e9e8f0;
+    color: var(--text-color);
+}
+
+:root{
+    --text-color: #e9e8f0;
 }
 
 .sob_bg{
@@ -22,4 +26,6 @@ header{
     letter-spacing: 5px;
 }
 
-.content p{}
+main{
+    color: var(--text-color);
+}
