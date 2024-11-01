@@ -26,6 +26,37 @@ header{
     letter-spacing: 5px;
 }
 
+.content-info{
+    font-family: JetBrains Mono;
+    font-weight: bolder;
+    letter-spacing: 2px;
+}
+
+.marquee{
+    overflow: hidden;
+    background-color: #0a0916;
+    white-space: nowrap;
+    color: #ffffff59;
+}
+
+.marquee-slide{
+    display: inline-block;
+    animation: marquee 8s linear infinite;
+}
+
+.marquee-slide i{
+    white-space: nowrap;
+    margin: 0 2.5rem;
+}
+
+@keyframes marquee{
+    from{
+        transform: translateX(0);
+    } to {
+        transform: translateX(-100%);
+    }
+}
+
 main{
     color: var(--text-color);
 }

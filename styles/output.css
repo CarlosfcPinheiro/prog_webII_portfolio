@@ -554,6 +554,40 @@ video {
   display: none;
 }
 
+.container {
+  width: 100%;
+}
+
+@media (min-width: 640px) {
+  .container {
+    max-width: 640px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+
+@media (min-width: 1536px) {
+  .container {
+    max-width: 1536px;
+  }
+}
+
 .absolute {
   position: absolute;
 }
@@ -564,6 +598,18 @@ video {
 
 .inset-0 {
   inset: 0px;
+}
+
+.m-2 {
+  margin: 0.5rem;
+}
+
+.mt-2 {
+  margin-top: 0.5rem;
+}
+
+.mt-5 {
+  margin-top: 1.25rem;
 }
 
 .flex {
@@ -594,12 +640,64 @@ video {
   height: 100%;
 }
 
+.h-\[65vh\] {
+  height: 65vh;
+}
+
+.h-\[80vh\] {
+  height: 80vh;
+}
+
+.h-\[75vh\] {
+  height: 75vh;
+}
+
+.h-\[15vh\] {
+  height: 15vh;
+}
+
+.h-\[10vh\] {
+  height: 10vh;
+}
+
+.h-\[5vh\] {
+  height: 5vh;
+}
+
+.h-\[12vh\] {
+  height: 12vh;
+}
+
+.h-\[13vh\] {
+  height: 13vh;
+}
+
+.h-\[14vh\] {
+  height: 14vh;
+}
+
+.h-\[10rem\] {
+  height: 10rem;
+}
+
+.h-\[5rem\] {
+  height: 5rem;
+}
+
 .w-10 {
   width: 2.5rem;
 }
 
 .w-11\/12 {
   width: 91.666667%;
+}
+
+.w-\[0\.5rem\] {
+  width: 0.5rem;
+}
+
+.w-\[2rem\] {
+  width: 2rem;
 }
 
 .w-\[30\%\] {
@@ -614,16 +712,24 @@ video {
   width: 100%;
 }
 
-.w-\[\] {
-  width: ;
+.w-80 {
+  width: 20rem;
 }
 
-.w-\[0\.5rem\] {
-  width: 0.5rem;
+.w-\[80\%\] {
+  width: 80%;
 }
 
-.w-\[2rem\] {
-  width: 2rem;
+.w-\[90\%\] {
+  width: 90%;
+}
+
+.w-\[95\%\] {
+  width: 95%;
+}
+
+.w-\[100\%\] {
+  width: 100%;
 }
 
 .flex-row {
@@ -640,6 +746,14 @@ video {
 
 .justify-center {
   justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-around {
+  justify-content: space-around;
 }
 
 .gap-10 {
@@ -678,6 +792,14 @@ video {
   background-repeat: no-repeat;
 }
 
+.p-2 {
+  padding: 0.5rem;
+}
+
+.p-\[5rem\] {
+  padding: 5rem;
+}
+
 .pb-10 {
   padding-bottom: 2.5rem;
 }
@@ -689,6 +811,21 @@ video {
 
 .text-6xl {
   font-size: 3.75rem;
+  line-height: 1;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
+.text-5xl {
+  font-size: 3rem;
   line-height: 1;
 }
 
