@@ -11,6 +11,10 @@ header{
     --text-color: #e9e8f0;
 }
 
+.pixel-bg{
+    background-position-y: -19rem;
+}
+
 .sob_bg{
     position: absolute;
     width: 100%;
@@ -32,6 +36,20 @@ header{
     letter-spacing: 2px;
 }
 
+.content-geral p{
+    font-family: 'Satoshi', sans-serif;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+
+.formacao-atual{
+    background-color: #e9e8f0;
+}
+
+.dot{
+    background-color: #e9e8f0;
+}
+
 .marquee{
     overflow: hidden;
     background-color: #0a0916;
@@ -47,6 +65,18 @@ header{
 .marquee-slide i{
     white-space: nowrap;
     margin: 0 2.5rem;
+}
+
+.ball-g{
+    background-color: #00CA4E;
+}
+
+.ball-y{
+    background-color: #FFBD44;
+}
+
+.ball-r{
+    background-color: #FF605C;
 }
 
 @keyframes marquee{

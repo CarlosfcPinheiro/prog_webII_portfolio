@@ -8,7 +8,7 @@
     <link href="https://api.fontshare.com/v2/css?f[]=jet-brains-mono@500,700,800&display=swap" rel="stylesheet"> 
 
 
-    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />   
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"/>   
     <script src="https://kit.fontawesome.com/c7a7d18c88.js" crossorigin="anonymous" defer></script>
 
     <link rel="stylesheet" href="/styles/output.css">
@@ -17,7 +17,7 @@
     <title>Carlos Pinheiro</title>
 </head>
 <body class="">
-    <header class="w-full h-[100vh]">
+    <header class="w-full h-auto">
         <div class="w-full h-[15vh] flex justify-center">
             <div class="w-11/12 h-full flex flex-row items-center gap-10">
                 <div class="w-10 h-10 border-2 rounded-lg flex justify-center items-center">
@@ -31,56 +31,72 @@
                 </ul>
             </div>
         </div>
-        <div class="relative w-full h-[75vh] bg-[url('/assets/train.gif')] bg-no-repeat bg-cover bg-bottom">
+        <div class="pixel-bg relative w-full h-[70vh] bg-[url('/assets/train.gif')] bg-no-repeat bg-cover bg-fixed">
             <div class="sob_bg"></div>
-            <div class="content absolute inset-0 flex flex-col justify-center items-center pb-10">
+            <div class="content absolute inset-0 flex flex-col justify-center items-center pb-[3%]">
                 <h1 class="text-6xl text-white">Carlos Pinheiro</h1>
                 <p class="">Back-end developer</p>
             </div>
         </div>
-        <div class="marquee w-full h-[10vh] text-5xl flex items-center justify-center">
-            <div class="marquee-slide">
-                <i class="fa-brands fa-node-js"></i>
-                <i class="fa-brands fa-js"></i>
-                <i class="devicon-mongodb-plain"></i>
-                <i class="fa-brands fa-java"></i>
-                <i class="devicon-spring-original"></i>
-                <i class="devicon-mysql-original"></i>
-                <i class="fa-brands fa-python"></i>
-                <i class="devicon-docker-plain"></i>
-                <i class="devicon-archlinux-plain"></i>
-            </div>
-            <div class="marquee-slide">
-                <i class="fa-brands fa-node-js"></i>
-                <i class="fa-brands fa-js"></i>
-                <i class="devicon-mongodb-plain"></i>
-                <i class="fa-brands fa-java"></i>
-                <i class="devicon-spring-original"></i>
-                <i class="devicon-mysql-original"></i>
-                <i class="fa-brands fa-python"></i>
-                <i class="devicon-docker-plain"></i>
-                <i class="devicon-archlinux-plain"></i>
-            </div>
-            <div class="marquee-slide">
-                <i class="fa-brands fa-node-js"></i>
-                <i class="fa-brands fa-js"></i>
-                <i class="devicon-mongodb-plain"></i>
-                <i class="fa-brands fa-java"></i>
-                <i class="devicon-spring-original"></i>
-                <i class="devicon-mysql-original"></i>
-                <i class="fa-brands fa-python"></i>
-                <i class="devicon-docker-plain"></i>
-                <i class="devicon-archlinux-plain"></i>
-            </div>
-        </div>   
     </header>
-    <main class="w-full h-[100vh] flex flex-row">
-        <div class="content-info p-[5rem]">
-            <h2 class="text-6xl"># Geral</h2>
-            <h2 class="text-6xl"># Sobre</h2>
-            <h2 class="text-6xl"># Formação</h2>
-            <h2 class="text-6xl"># Projetos</h2>
+    <main class="w-full h-[100vh] flex flex-row justify-center">
+        <div class="content-info w-[60%] h-auto pt-[8rem] flex flex-col gap-[4rem]">
+            <div class="content-geral">
+                <h2 class="text-6xl mb-[2rem]">Olá, Mundo!👋</h2>
+                <p>Meu nome é <strong>Carlos Pinheiro</strong>, sou estudante e desenvolvedor Back-end. Atualmente, estou em busca de aprimorar minhas experiências profissionais, utilizando as seguintes tecnologias:</p>
+                <ul class="list-disc flex flex-row gap-24 p-4">
+                    <div>
+                        <li>Java</li>
+                        <li>Javascript</li>
+                        <li>Python</li>
+                    </div>
+                    <div>
+                        <li>SpringBoot</li>
+                        <li>NodeJS</li>
+                    </div>
+                    <div>
+                        <li>MySQL</li>
+                        <li>MongoDB</li>
+                    </div>
+                </ul>
+            </div>
+            <div>
+                <h2 class="text-6xl mb-[2rem]">Sobre mim</h2>
+                <div class="content-sobre flex flex-col items-center">
+                    <div class="box-info w-[130%] h-[28rem] border-2 text-center rounded-xl flex flex-row">
+                        <div class="imagem-bg w-[50%] h-full bg-[url('/assets/me.jpeg')] bg-cover rounded-l-xl">
+                        </div>
+                        <div class="sobre w-[80%] h-full bg-black rounded-r-xl p-2 text-start">
+                            <h3>Um pouco sobre mim...</h3>
+                            <br>
+                            <p>Sou estudante de Sistemas para Internet na Universidade Católica de Pernambuco</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="content-formacao">
+                <h2 class="text-6xl mb-[2rem]">Formação</h2>
+                <div class="formacoes flex flex-col gap-2">
+                    <div class="formacao w-full h-24 rounded-xl border-2">
+
+                    </div>
+                    <div class="dotdotdot w-full flex flex-col items-center gap-2">
+                        <div class="dot w-[0.5rem] h-[0.5rem] rounded-full"></div>
+                        <div class="dot w-[0.5rem] h-[0.5rem] rounded-full"></div>
+                        <div class="dot w-[0.5rem] h-[0.5rem] rounded-full"></div>
+                    </div>
+                    <div class="formacao-atual w-[100%] h-24 rounded-xl border-2">
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="content-projetos">
+                <h2 class="text-6xl">Projetos</h2>
+            </div>
         </div>
     </main>
+    <footer>
+
+    </footer>
 </body>
 </html>
