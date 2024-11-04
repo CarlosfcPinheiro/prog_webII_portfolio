@@ -610,6 +610,50 @@ video {
   height: 100%;
 }
 
+.h-\[20vh\] {
+  height: 20vh;
+}
+
+.h-\[50vh\] {
+  height: 50vh;
+}
+
+.h-\[60vh\] {
+  height: 60vh;
+}
+
+.h-\[12rem\] {
+  height: 12rem;
+}
+
+.h-12 {
+  height: 3rem;
+}
+
+.h-2 {
+  height: 0.5rem;
+}
+
+.h-\[rem\] {
+  height: rem;
+}
+
+.h-\[1rem\] {
+  height: 1rem;
+}
+
+.min-h-\[60vh\] {
+  min-height: 60vh;
+}
+
+.min-h-\[\] {
+  min-height: ;
+}
+
+.min-h-\[60\] {
+  min-height: 60;
+}
+
 .w-10 {
   width: 2.5rem;
 }
@@ -644,6 +688,10 @@ video {
 
 .w-full {
   width: 100%;
+}
+
+.w-\[1rem\] {
+  width: 1rem;
 }
 
 .list-disc {
@@ -682,12 +730,16 @@ video {
   gap: 2rem;
 }
 
-.gap-\[4rem\] {
-  gap: 4rem;
-}
-
 .gap-\[3rem\] {
   gap: 3rem;
+}
+
+.gap-3 {
+  gap: 0.75rem;
+}
+
+.gap-4 {
+  gap: 1rem;
 }
 
 .rounded-full {
@@ -716,16 +768,36 @@ video {
   border-width: 2px;
 }
 
-.bg-\[url\(\'\/assets\/me\.jpeg\'\)\] {
-  background-image: url('/assets/me.jpeg');
+.bg-\[\] {
+  background-color: ;
 }
 
-.bg-\[url\(\'\/assets\/train\.gif\'\)\] {
-  background-image: url('/assets/train.gif');
+.bg-\[--var\] {
+  background-color: var(--var);
+}
+
+.bg-\[--var\(\)\] {
+  background-color: var(--var());
+}
+
+.bg-\[--var\(red-color\)\] {
+  background-color: var(--var(red-color));
+}
+
+.bg-\[var\(red-color\)\] {
+  background-color: var(red-color);
+}
+
+.bg-\[var\(--red-color\)\] {
+  background-color: var(--red-color);
 }
 
 .bg-\[url\(\'\/assets\/me\.gif\'\)\] {
   background-image: url('/assets/me.gif');
+}
+
+.bg-\[url\(\'\/assets\/train\.gif\'\)\] {
+  background-image: url('/assets/train.gif');
 }
 
 .bg-cover {
@@ -748,6 +820,10 @@ video {
   padding: 1rem;
 }
 
+.p-12 {
+  padding: 3rem;
+}
+
 .pb-\[3\%\] {
   padding-bottom: 3%;
 }
@@ -764,6 +840,14 @@ video {
   text-align: start;
 }
 
+.font-\[\] {
+  font-family: ;
+}
+
+.font-\[\'Satoshi\'\] {
+  font-family: 'Satoshi';
+}
+
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
@@ -774,6 +858,20 @@ video {
   line-height: 1;
 }
 
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
 .font-bold {
   font-weight: 700;
+}
+
+.font-thin {
+  font-weight: 100;
 }

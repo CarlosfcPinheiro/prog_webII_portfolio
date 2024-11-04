@@ -11,10 +11,14 @@ header{
     --text-color: #e9e8f0;
     --text-gray-color: #c1c0c5;
     --bg-color: #0a0916;
+    --red-color: #FF605C;
+    --yellow-color: #FFBD44;
+    --green-color: #00CA4C;
 }
 
+/*=======HEADER========*/
 .pixel-bg{
-    background-position-y: -20rem;
+    background-position-y: 130%;
 }
 
 .sob_bg{
@@ -31,19 +35,20 @@ header{
     font-weight: bolder;
     letter-spacing: 5px;
 }
-
+/*=======CONTENT INFO (ALL PAGE)========*/
 .content-info{
     font-family: JetBrains Mono;
     font-weight: bolder;
     letter-spacing: 2px;
 }
-
+/*=======CONTENT GERAL========*/
 .content-geral p{
     font-family: 'Satoshi', sans-serif;
     letter-spacing: 1px;
     font-weight: 500;
 }
 
+/*========FORMACOES========*/
 .formacao-atual{
     background-color: #e9e8f0;
 }
@@ -70,6 +75,7 @@ header{
     font-size: 14px;
 }
 
+/*=======MARQUEE========*/
 .marquee{
     overflow: hidden;
     background-color: #0a0916;
@@ -94,6 +100,23 @@ header{
         transform: translateX(-100%);
     }
 }
+
+/*=======BALL MAC========*/
+.ball-g{
+    background-color: var(--green-color);
+}
+.ball-y{
+    background-color: var(--yellow-color);
+}
+.ball-r{
+    background-color: var(--red-color);
+}
+
+.sharp{
+    color: var(--red-color);
+}
+
+/*=======SOBRE TEXT========*/
 
 main{
     color: var(--text-color);
