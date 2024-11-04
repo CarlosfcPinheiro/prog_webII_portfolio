@@ -9,10 +9,12 @@ header{
 
 :root{
     --text-color: #e9e8f0;
+    --text-gray-color: #c1c0c5;
+    --bg-color: #0a0916;
 }
 
 .pixel-bg{
-    background-position-y: -19rem;
+    background-position-y: -20rem;
 }
 
 .sob_bg{
@@ -50,6 +52,24 @@ header{
     background-color: #e9e8f0;
 }
 
+.form-content{
+    font-family: 'Satoshi', sans-serif;
+}
+
+.form-content p{
+    font-size: 14px;
+    color: var(--text-gray-color);
+}
+
+.form-atual-content{
+    font-family: 'Satoshi', sans-serif;
+    color: var(--bg-color);
+}
+
+.form-atual-content p{
+    font-size: 14px;
+}
+
 .marquee{
     overflow: hidden;
     background-color: #0a0916;
@@ -65,18 +85,6 @@ header{
 .marquee-slide i{
     white-space: nowrap;
     margin: 0 2.5rem;
-}
-
-.ball-g{
-    background-color: #00CA4E;
-}
-
-.ball-y{
-    background-color: #FFBD44;
-}
-
-.ball-r{
-    background-color: #FF605C;
 }
 
 @keyframes marquee{
