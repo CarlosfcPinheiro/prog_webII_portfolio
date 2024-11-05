@@ -9,7 +9,7 @@ header{
 
 :root{
     --text-color: #e9e8f0;
-    --text-gray-color: #c1c0c5;
+    --text-gray-color: #a8a7ad;
     --bg-color: #0a0916;
     --red-color: #FF605C;
     --yellow-color: #FFBD44;
@@ -117,6 +117,10 @@ header{
 }
 
 /*=======SOBRE TEXT========*/
+.redes{
+    color: var(--text-gray-color);
+}
+
 
 main{
     color: var(--text-color);

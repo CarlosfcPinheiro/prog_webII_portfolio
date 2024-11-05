@@ -63,21 +63,33 @@
             <div>
                 <h2 class="text-6xl mb-[2rem]">Sobre mim</h2>
                 <div class="content-sobre flex flex-col items-center">
-                    <div class="box-info w-[130%] min-h-[60vh] border-2 text-center rounded-xl flex flex-row">
+                    <div class="box-info w-[130%] min-h-[90vh] border-2 text-center rounded-xl flex flex-row">
                         <div class="imagem-bg w-[50%] min-h-[60vh] bg-[url('/assets/me.gif')] bg-cover rounded-l-xl">
                         </div>
                         <div class="sobre w-[80%] h-full bg-black rounded-r-xl p-2 text-start">
-                            <div class="mac-circles flex flex-row gap-2">
-                                <div class="ball-g w-[1rem] h-[1rem] rounded-full"></div>
-                                <div class="ball-y w-[1rem] h-[1rem] rounded-full"></div>
-                                <div class="ball-r w-[1rem] h-[1rem] rounded-full"></div>
+                            <div class="mac-circles flex flex-row justify-end gap-2">
+                                <div class="ball-g w-[1.2rem] h-[1.2rem] rounded-full"></div>
+                                <div class="ball-y w-[1.2rem] h-[1.2rem] rounded-full"></div>
+                                <div class="ball-r w-[1.2rem] h-[1.2rem] rounded-full"></div>
                             </div>
-                            <div class="sobreText p-12 font-['Satoshi']">
-                                <h3 class="text-4xl"><span class="sharp">#</span>Carlos Pinheiro</h3>
-                                <br>
-                                <p class="font-thin">Sempre busco me manter por dentro das novas tecnologias com o foco em inovação. Já pude experienciar o desenvolvimento de alguns projetos que contribuíram para meu desenvolvimento pessoal e profissional. Busco me manter ativo nas comunidades e redes de compartilhamento.</p>
-                                <br>
-                                <p class="font-thin">Nas horas vagas, gosto de dedicar meu tempo com arte digital e música. </p>
+                            <div class="sobreText p-12 font-['Satoshi'] flex flex-col gap-8">
+                                <div>
+                                    <h3 class="text-4xl"><span class="sharp">#</span>Carlos Pinheiro</h3>
+                                    <br>
+                                    <p class="font-thin">Sempre busco me manter por dentro das novas tecnologias com o foco em inovação. Já pude experienciar o desenvolvimento de alguns projetos que contribuíram para meu desenvolvimento pessoal e profissional. Busco me manter ativo nas comunidades e redes de compartilhamento, com um profundo interesse sobre projetos acadêmicos.</p>
+                                    <br>
+                                    <p class="font-thin">Nas horas vagas, gosto de dedicar meu tempo a arte digital, leitura e música.</p>
+                                </div>
+                                <div>
+                                    <h4 class="text-2xl"><span class="sharp">##</span>Minhas Redes</h4>
+                                    <div class="redes text-4xl">
+                                        <a href="https://github.com/CarlosfcPinheiro" target="_blank"><i class="fa-brands fa-square-github"></i></a>
+                                        <a href="https://www.linkedin.com/in/carlos-pinheiro82/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                                    </div>
+                                </div>
+                                <div class="cv-button">
+                                    <a href="assets/curriculo-carlosf.pdf" target="_blank" class="p-3 w-48 border-2 text-center rounded-xl">Confira meu CV</a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -85,10 +97,10 @@
             </div>
             <div class="content-formacao">
                 <h2 class="text-6xl mb-[2rem]">Formação</h2>
-                <div class="formacoes flex flex-col gap-2">
-                    <div class="formacao w-full h-24 rounded-xl border-2">
+                <div class="formacoes flex flex-col items-center gap-2">
+                    <div class="formacao w-[80%] h-24 rounded-xl border-2">
                         <div class="form-content p-2">
-                            <h3>ETE Porto Digital</h3>
+                            <h3 class="font-extrabold">ETE Porto Digital</h3>
                             <p>Técnico em Desenvolvimento de Sistemas</p>
                             <p>2021-2023</p>
                         </div>
@@ -98,17 +110,44 @@
                         <div class="dot w-[0.5rem] h-[0.5rem] rounded-full"></div>
                         <div class="dot w-[0.5rem] h-[0.5rem] rounded-full"></div>
                     </div>
-                    <div class="formacao-atual w-[100%] h-24 rounded-xl border-2">
+                    <div class="formacao-atual w-[80%] h-24 rounded-xl border-2">
                         <div class="form-atual-content p-2">
-                            <h3>Universidade Católica de Pernambuco</h3>
+                            <h3 class="font-extrabold">Universidade Católica de Pernambuco</h3>
                             <p>Tecnólogo em Sistemas para Internet</p>
-                            <p>2024-2026.2</p>
+                            <p>2024-2026.2 (em andamento)</p>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="content-projetos w-full h-12">
+            <div class="content-projetos w-full h-12 flex flex-col gap-[3rem]">
                 <h2 class="text-6xl">Projetos</h2>
+                <p>Alguns dos projetos que desenvolvi durante meus estudos e períodos acadêmicos.</p>
+                <div class="projetos flex flex-row gap-16 items-center justify-center">
+                    <div class="projeto w-52 h-80 border-2 rounded-xl">
+                        <div class="img-projeto">
+
+                        </div>
+                        <div class="desc-projeto">
+
+                        </div>
+                    </div>
+                    <div class="projeto w-52 h-80 border-2 rounded-xl">
+                        <div class="img-projeto">
+
+                        </div>
+                        <div class="desc-projeto">
+                            
+                        </div>
+                    </div>
+                    <div class="projeto w-52 h-80 border-2 rounded-xl">
+                        <div class="img-projeto">
+
+                        </div>
+                        <div class="desc-projeto">
+                            
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </main>
