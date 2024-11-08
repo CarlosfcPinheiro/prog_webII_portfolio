@@ -17,7 +17,7 @@
     <title>Carlos Pinheiro</title>
 </head>
 <body class="">
-    <header class="w-full h-auto">
+    <header class="w-full h-[85vh]">
         <div class="w-full h-[15vh] flex justify-center">
             <div class="w-11/12 h-full flex flex-row items-center gap-10">
                 <div class="w-10 h-10 border-2 rounded-lg flex justify-center items-center">
@@ -39,9 +39,9 @@
             </div>
         </div>
     </header>
-    <main class="w-full h-[100vh] flex flex-row justify-center">
-        <div class="content-info w-[60%] h-auto pt-[8rem] flex flex-col gap-[3rem]">
-            <div class="content-geral">
+    <main class="w-full h-auto flex justify-center">
+        <div class="content-info w-[60%] h-auto pt-[8rem] pb-[5rem] flex flex-col gap-[3rem]">
+            <div class="content-geral h-auto">
                 <h2 class="text-6xl mb-[2rem]">Olá, Mundo!👋</h2>
                 <p>Meu nome é <strong>Carlos Pinheiro</strong>, sou estudante e desenvolvedor Back-end. Atualmente, estou em busca de aprimorar minhas experiências profissionais, utilizando as seguintes tecnologias:</p>
                 <ul class="list-disc flex flex-row gap-24 p-4">
@@ -60,7 +60,7 @@
                     </div>
                 </ul>
             </div>
-            <div>
+            <div class="">
                 <h2 class="text-6xl mb-[2rem]">Sobre mim</h2>
                 <div class="content-sobre flex flex-col items-center">
                     <div class="box-info w-[130%] min-h-[90vh] border-2 text-center rounded-xl flex flex-row">
@@ -119,40 +119,42 @@
                     </div>
                 </div>
             </div>
-            <div class="content-projetos w-full h-12 flex flex-col gap-[3rem]">
-                <h2 class="text-6xl">Projetos</h2>
-                <p>Alguns dos projetos que desenvolvi durante meus estudos e períodos acadêmicos.</p>
-                <div class="projetos flex flex-row gap-16 items-center justify-center">
-                    <div class="projeto w-52 h-80 border-2 rounded-xl">
-                        <div class="img-projeto">
+            <div class="projetos">
+                <h3 class="font-extrabold text-6xl mb-[2rem]">Projetos</h3>
+                <p class="font-[Satoshi] font-thin">Aqui apresento alguns dos projetos que desenvolvi, individualmente ou em equipe, durante meus estudos e períodos acadêmicos.</p>
+                <br>
+                <div class="card-projetos flex flex-row gap-8 justify-center">
+                    <div class="card w-56 min-h-80 border-2 rounded-xl">
+                        <div class="img-projeto w-full h-[60%] bg-[url('/assets/projeto1.png')] bg-cover rounded-t-xl">
 
                         </div>
-                        <div class="desc-projeto">
-
+                        <div class="font-thin font-[Satoshi] p-2">
+                            <h4>Biblioteca ETEPD</h4>
                         </div>
                     </div>
-                    <div class="projeto w-52 h-80 border-2 rounded-xl">
-                        <div class="img-projeto">
-
-                        </div>
-                        <div class="desc-projeto">
+                    <div class="card w-56 min-h-80 border-2 rounded-xl">
+                        <div class="img-projeto w-full h-[60%] bg-[url('/assets/projeto2.png')] bg-cover rounded-t-xl">
                             
+                        </div>
+                        <div class="projeto-text p-2 font-[Satoshi]">
+                            <h4>ProntoRecife API</h4>
                         </div>
                     </div>
-                    <div class="projeto w-52 h-80 border-2 rounded-xl">
-                        <div class="img-projeto">
+                    <div class="card w-56 min-h-80 border-2 rounded-xl">
+                        <div class="img-projeto w-full h-[60%] bg-[url('/assets/projeto3.png')] bg-cover rounded-t-xl">
 
                         </div>
-                        <div class="desc-projeto">
-                            
+                        <div class="projeto-text font-[Satoshi] p-2">
+                            <h4>Sharing Page</h4>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </main>
-    <footer>
-
+    <footer class="w-full h-32 font-[Satoshi] flex justify-center items-center flex flex-col gap-2">
+        <h3 class="text-base">Desenvolvido por Carlos Pinheiro</h3>
+        <a href="src/bulls&cows.html" class="p-1 px-12 border-2 rounded-xl"><i class="fa-solid fa-cow"></i></a>
     </footer>
 </body>
 </html>

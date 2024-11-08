@@ -1,4 +1,13 @@
-body{
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body, html{
+    width: 100%;
+    height: auto;
+
     font-family: 'Satoshi', sans-serif;
     background-color: #0a0916;
 }
@@ -121,6 +130,23 @@ header{
     color: var(--text-gray-color);
 }
 
+/*========PROJETOS========*/
+.projeto{
+    background-color: var(--bg-color);
+}
+
+.darken{
+    background-color: #0a091659;
+}
+
+/*========FOOTER========*/
+footer{
+    background-color: #06050c;
+}
+
+footer h3, footer a{
+    color: var(--text-gray-color);
+}
 
 main{
     color: var(--text-color);
