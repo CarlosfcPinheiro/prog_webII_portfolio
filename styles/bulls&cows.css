@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100%;
+    height: auto;
+
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+:root{
+    --text-color: #e9e8f0;
+    --text-gray-color: #a8a7ad;
+    --bg-color: #0a0916;
+    --red-color: #FF605C;
+    --yellow-color: #FFBD44;
+    --green-color: #00CA4C;
+}
+
+h1{
+    font-family: 'JetBrains Mono', sans-serif;
+    font-weight: bolder;
+}
+
+#input-number{
+    background-color: transparent;
+    outline: none;
+}
