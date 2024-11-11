@@ -12,50 +12,92 @@
 
     <script src="../scripts/script.js" defer></script>
 
-    <title>Document</title>
+    <title>Bulls & Cows</title>
 </head>
 <body>
-    <div class="content flex flex-col items-center pt-8 ">
+    <div class="content flex flex-col items-center justify-center pt-8 ">
         <h1 class="text-6xl pb-8">Bulls & Cows</h1>
         <div class="game items-center items-center gap-2">
-            <div>
-                <div class="flex flex-col gap-2">
-                    <ul id="line-numbers" class="flex flex-row text-4xl font-[Satoshi] font-bold gap-1">
-                        <li class="py-8 px-8 border-2 rounded-xl"></li>
-                        <li class="py-8 px-8 border-2 rounded-xl"></li>
-                        <li class="py-8 px-8 border-2 rounded-xl"></li>
-                        <li class="py-8 px-8 border-2 rounded-xl"></li>
-                    </ul>
-                    <ul id="line-numbers" class="flex flex-row text-4xl font-[Satoshi] font-bold gap-1">
-                        <li class="py-8 px-8 border-2 rounded-xl"></li>
-                        <li class="py-8 px-8 border-2 rounded-xl"></li>
-                        <li class="py-8 px-8 border-2 rounded-xl"></li>
-                        <li class="py-8 px-8 border-2 rounded-xl"></li>
-                    </ul>
-                    <ul id="line-numbers" class="flex flex-row text-4xl font-[Satoshi] font-bold gap-1">
-                        <li class="py-8 px-8 border-2 rounded-xl"></li>
-                        <li class="py-8 px-8 border-2 rounded-xl"></li>
-                        <li class="py-8 px-8 border-2 rounded-xl"></li>
-                        <li class="py-8 px-8 border-2 rounded-xl"></li>
-                    </ul>
-                    <ul id="line-numbers" class="flex flex-row text-4xl font-[Satoshi] font-bold gap-1">
-                        <li class="py-8 px-8 border-2 rounded-xl"></li>
-                        <li class="py-8 px-8 border-2 rounded-xl"></li>
-                        <li class="py-8 px-8 border-2 rounded-xl"></li>
-                        <li class="py-8 px-8 border-2 rounded-xl"></li>
-                    </ul>
-                    <ul id="line-numbers" class="flex flex-row text-4xl font-[Satoshi] font-bold gap-1">
-                        <li class="py-8 px-8 border-2 rounded-xl"></li>
-                        <li class="py-8 px-8 border-2 rounded-xl"></li>
-                        <li class="py-8 px-8 border-2 rounded-xl"></li>
-                        <li class="py-8 px-8 border-2 rounded-xl"></li>
+            <div class="w-full">
+                <div>
+                    <ul id="list-numbers" class="flex flex-col text-4xl font-[Satoshi] font-bold gap-4">
+                        <li id="line-number" class="flex flex-row gap-2">
+                            <div class="box w-16 h-16 border-2 rounded-xl flex justify-center items-center">
+                                <span id="number" class="text-3xl"></span>
+                            </div>
+                            <div class="box w-16 h-16 border-2 rounded-xl flex justify-center items-center">
+                                <span id="number" class="text-3xl"></span>
+                            </div>
+                            <div class="box w-16 h-16 border-2 rounded-xl flex justify-center items-center">
+                                <span id="number" class="text-3xl"></span>
+                            </div>
+                            <div class="box w-16 h-16 border-2 rounded-xl flex justify-center items-center">
+                                <span id="number" class="text-3xl"></span>
+                            </div>
+                        </li>
+                        <li id="line-number" class="flex flex-row gap-2">
+                            <div class="box w-16 h-16 border-2 rounded-xl flex justify-center items-center">
+                                <span id="number" class="text-3xl"></span>
+                            </div>
+                            <div class="box w-16 h-16 border-2 rounded-xl flex justify-center items-center">
+                                <span id="number" class="text-3xl"></span>
+                            </div>
+                            <div class="box w-16 h-16 border-2 rounded-xl flex justify-center items-center">
+                                <span id="number" class="text-3xl"></span>
+                            </div>
+                            <div class="box w-16 h-16 border-2 rounded-xl flex justify-center items-center">
+                                <span id="number" class="text-3xl"></span>
+                            </div>
+                        </li>
+                        <li id="line-number" class="flex flex-row gap-2">
+                            <div class="box w-16 h-16 border-2 rounded-xl flex justify-center items-center">
+                                <span id="number" class="text-3xl"></span>
+                            </div>
+                            <div class="box w-16 h-16 border-2 rounded-xl flex justify-center items-center">
+                                <span id="number" class="text-3xl"></span>
+                            </div>
+                            <div class="box w-16 h-16 border-2 rounded-xl flex justify-center items-center">
+                                <span id="number" class="text-3xl"></span>
+                            </div>
+                            <div class="box w-16 h-16 border-2 rounded-xl flex justify-center items-center">
+                                <span id="number" class="text-3xl"></span>
+                            </div>
+                        </li>
+                        <li id="line-number" class="flex flex-row gap-2">
+                            <div class="box w-16 h-16 border-2 rounded-xl flex justify-center items-center">
+                                <span id="number" class="text-3xl"></span>
+                            </div>
+                            <div class="box w-16 h-16 border-2 rounded-xl flex justify-center items-center">
+                                <span id="number" class="text-3xl"></span>
+                            </div>
+                            <div class="box w-16 h-16 border-2 rounded-xl flex justify-center items-center">
+                                <span id="number" class="text-3xl"></span>
+                            </div>
+                            <div class="box w-16 h-16 border-2 rounded-xl flex justify-center items-center">
+                                <span id="number" class="text-3xl"></span>
+                            </div>
+                        </li>
+                        <li id="line-number" class="flex flex-row gap-2">
+                            <div class="box w-16 h-16 border-2 rounded-xl flex justify-center items-center">
+                                <span id="number" class="text-3xl"></span>
+                            </div>
+                            <div class="box w-16 h-16 border-2 rounded-xl flex justify-center items-center">
+                                <span id="number" class="text-3xl"></span>
+                            </div>
+                            <div class="box w-16 h-16 border-2 rounded-xl flex justify-center items-center">
+                                <span id="number" class="text-3xl"></span>
+                            </div>
+                            <div class="box w-16 h-16 border-2 rounded-xl flex justify-center items-center">
+                                <span id="number" class="text-3xl"></span>
+                            </div>
+                        </li>
                     </ul>
                 </div>
             </div>
             <div class="mt-2 p-2 border-2 rounded-xl">
                 <div class="game-info flex flex-col font-bold">
-                    <p class="text-[#FF605C]">Bulls: <span id="bulls-count">0</span></p>
-                    <p class="text-[#00CA4C]">Cows: <span id="cows-count">0</span></p>
+                    <p class="text-[#00CA4C]">Bulls: <span id="bulls-count">0</span></p>
+                    <p class="text-[#FF605C]">Cows: <span id="cows-count">0</span></p>
                 </div>
                 <div class="input-att flex flex-row justify-between">
                     <input id="input-number" class="w-40 border-b-2 border-[#FFBD44] font-[Satoshi] font-thin" type="text" placeholder="Digite uma sequência">
