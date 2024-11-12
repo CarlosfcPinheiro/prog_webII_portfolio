@@ -43,6 +43,22 @@ const writeNumber = (numberArr, index) => {
         span.textContent = numberArr[i];
     }
 }
+// Show pop-up button
+const showButton = (titleText, iconName, buttonText) => {
+    Swal.fire({
+        title: titleText,
+        icon: iconName,
+        confirmButtonText: buttonText,
+        showCancelButton: true,
+        cancelButtonText: 'Retornar a Home Page'
+    }).then((response) => {
+        if (response.isConfirmed){
+            location.reload();
+        } else {
+            location.href = '../index.html';
+        }
+    });
+}
 
 // Global variables
 const randomNum = randomNumber();
@@ -51,9 +67,10 @@ let lives = 5;
 let bulls = 0;
 let cows = 0;
 
-//console.log(randomNum);
+// console.log(randomNum);
 // Button clicked logic listener
 button_test.addEventListener('click', () => {
+
     bulls = 0;
     cows = 0;
 
@@ -66,7 +83,7 @@ button_test.addEventListener('click', () => {
     const actualLine = Math.abs(lives-5);
 
     if (attempt == randomNum){
-        console.log("É igual");
+        showButton(`Parabéns, você acertou! O número é ${randomNum}!`, 'success', 'Jogar novamente');
     }
     else if (!isGreater && isUnique){
         // Write number on the span elements
@@ -74,17 +91,21 @@ button_test.addEventListener('click', () => {
         for (let i=0; i < 4; i++){
             if (attemptSplited[i] === randomNumSplited[i]){
                 bulls += 1;
-                console.log(`Added bulls to ${attemptSplited[i]}`);
+                // console.log(`Added bulls to ${attemptSplited[i]}`);
             } else if (randomNumSplited.includes(attemptSplited[i])) {
-                console.log(randomNumSplited);
+                // console.log(randomNumSplited);
                 cows += 1;
-                console.log(`Added cows to ${attemptSplited[i]}`);
+                // console.log(`Added cows to ${attemptSplited[i]}`);
             }
         }
         bulls_span.textContent = bulls;
         cows_span.textContent = cows;
 
         lives -= 1;
+
+        if (lives == 0){
+            showButton(`Que pena, o número é ${randomNum}. Você consegue!`, 'error', 'Tentar novamente');
+        }
 
     } else {
         console.log("Erro ao enviar tentativa.");
