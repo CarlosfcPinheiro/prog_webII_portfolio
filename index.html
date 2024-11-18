@@ -24,10 +24,10 @@
                     <h1 class="text-3xl font-bold text-white">C</h1>
                 </div>
                 <ul class="flex flex-row gap-8">
-                    <li><a href="#">Geral</a></li>
-                    <li><a href="#">Sobre</a></li>
-                    <li><a href="#">Formação</a></li>
-                    <li><a href="#">Projetos</a></li>
+                    <li><a href="#geral">Geral</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#formação">Formação</a></li>
+                    <li><a href="#projetos">Projetos</a></li>
                 </ul>
             </div>
         </div>
@@ -38,9 +38,14 @@
                 <p class="">Back-end developer</p>
             </div>
         </div>
+        <div class="text-center pt-8 w-full flex justify-center items-center">
+            <div class="w-10 h-10 border-2 rounded-full flex justify-center items-center animate-bounce">
+                <i class="fa-solid fa-angle-down text-xl"></i>
+            </div>
+        </div>
     </header>
     <main class="w-full h-auto flex justify-center">
-        <div class="content-info w-[60%] h-auto pt-[8rem] pb-[5rem] flex flex-col gap-[3rem]">
+        <div id="geral" class="content-info w-[60%] h-auto pt-28 pb-[5rem] flex flex-col gap-[3rem]">
             <div class="content-geral h-auto">
                 <h2 class="text-6xl mb-[2rem]">Olá, Mundo!👋</h2>
                 <p>Meu nome é <strong>Carlos Pinheiro</strong>, sou estudante e desenvolvedor Back-end. Atualmente, estou em busca de aprimorar minhas experiências profissionais, utilizando as seguintes tecnologias:</p>
@@ -60,13 +65,13 @@
                     </div>
                 </ul>
             </div>
-            <div class="">
+            <div id="sobre" class="">
                 <h2 class="text-6xl mb-[2rem]">Sobre mim</h2>
                 <div class="content-sobre flex flex-col items-center">
                     <div class="box-info w-[130%] min-h-[90vh] border-2 text-center rounded-xl flex flex-row">
                         <div class="imagem-bg w-[50%] min-h-[60vh] bg-[url('/assets/me.gif')] bg-cover rounded-l-xl">
                         </div>
-                        <div class="sobre w-[80%] h-full bg-black rounded-r-xl p-2 text-start">
+                        <div class="sobre w-[80%] h-full rounded-r-xl p-2 text-start">
                             <div class="mac-circles flex flex-row justify-end gap-2">
                                 <div class="ball-g w-[1.2rem] h-[1.2rem] rounded-full"></div>
                                 <div class="ball-y w-[1.2rem] h-[1.2rem] rounded-full"></div>
@@ -95,10 +100,10 @@
                     </div>
                 </div>
             </div>
-            <div class="content-formacao">
+            <div id="formação" class="content-formacao">
                 <h2 class="text-6xl mb-[2rem]">Formação</h2>
                 <div class="formacoes flex flex-col items-center gap-2">
-                    <div class="formacao w-[80%] h-24 rounded-xl border-2">
+                    <div class="formacao w-[80%] h-auto rounded-xl border-2">
                         <div class="form-content p-2">
                             <h3 class="font-extrabold">ETE Porto Digital</h3>
                             <p>Técnico em Desenvolvimento de Sistemas</p>
@@ -110,7 +115,7 @@
                         <div class="dot w-[0.5rem] h-[0.5rem] rounded-full"></div>
                         <div class="dot w-[0.5rem] h-[0.5rem] rounded-full"></div>
                     </div>
-                    <div class="formacao-atual w-[80%] h-24 rounded-xl border-2">
+                    <div class="formacao formacao-atual w-[80%] h-auto rounded-xl border-2">
                         <div class="form-atual-content p-2">
                             <h3 class="font-extrabold">Universidade Católica de Pernambuco</h3>
                             <p>Tecnólogo em Sistemas para Internet</p>
@@ -119,7 +124,7 @@
                     </div>
                 </div>
             </div>
-            <div class="projetos">
+            <div id="projetos" class="projetos">
                 <h3 class="font-extrabold text-6xl mb-[2rem]">Projetos</h3>
                 <p class="font-[Satoshi] font-thin">Aqui apresento alguns dos projetos que desenvolvi, individualmente ou em equipe, durante meus estudos e períodos acadêmicos.</p>
                 <br>

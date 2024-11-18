@@ -10,6 +10,7 @@ body, html{
 
     font-family: 'Satoshi', sans-serif;
     background-color: #0a0916;
+    scroll-behavior: smooth;
 }
 
 header{
@@ -84,30 +85,12 @@ header{
     font-size: 14px;
 }
 
-/*=======MARQUEE========*/
-.marquee{
-    overflow: hidden;
-    background-color: #0a0916;
-    white-space: nowrap;
-    color: #ffffff59;
+.formacao{
+    transition: 0.2s;
 }
 
-.marquee-slide{
-    display: inline-block;
-    animation: marquee 8s linear infinite;
-}
-
-.marquee-slide i{
-    white-space: nowrap;
-    margin: 0 2.5rem;
-}
-
-@keyframes marquee{
-    from{
-        transform: translateX(0);
-    } to {
-        transform: translateX(-100%);
-    }
+.formacao:hover{
+    scale: 1.1;
 }
 
 /*=======BALL MAC========*/
@@ -126,6 +109,10 @@ header{
 }
 
 /*=======SOBRE TEXT========*/
+.content-sobre{
+    background-color: var(--bg-color);
+}
+
 .redes{
     color: var(--text-gray-color);
 }
@@ -137,6 +124,16 @@ header{
 
 .darken{
     background-color: #0a091659;
+}
+
+.card{
+    transition: 0.2s;
+}
+
+.card:hover {
+    scale: 1.1;
+    background-color: var(--text-color);
+    color: var(--bg-color);
 }
 
 /*========FOOTER========*/
